@@ -1,0 +1,10 @@
+p {
+  color: dodgerblue;
+  border: 1px solid black;
+}
+
+/* color inherite the color of p */
+strong {
+  color: initial; /* to stop inheritance */
+  border: inherit; /* to force inheritance */
+}

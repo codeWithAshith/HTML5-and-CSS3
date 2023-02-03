@@ -1,0 +1,37 @@
+p .first {
+  font-weight: bold;
+  font-style: italic;
+}
+
+/* pesudo class */
+article :first-child {
+  font-weight: bold;
+  font-style: italic;
+}
+
+/* more specific */
+article p:first-of-type {
+  font-weight: bold;
+  font-style: italic;
+}
+
+/* all odd li */
+ul li:nth-child(odd) {
+  color: pink;
+}
+
+/* every 3rd element */
+ul li:nth-child(3n) {
+  color: pink;
+}
+
+a:visited,
+a:link {
+  color: blue;
+}
+
+/* tab key based navigation - focus */
+a:hover,
+a:focus {
+  color: green;
+}

@@ -1,0 +1,19 @@
+/* type selector */
+body {
+  background-color: gray;
+}
+
+#products {
+  font-weight: bold;
+}
+
+.product {
+  color: chocolate;
+}
+
+/* a[href="https://google.com"] absolute */
+/* a[href^="https"] starts with https */
+/* a[href$=".com"] ends with https */
+a[href^="https"][href$=".com"]/* combine */ {
+  color: orange;
+}

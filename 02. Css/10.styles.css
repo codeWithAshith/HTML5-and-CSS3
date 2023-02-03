@@ -1,0 +1,13 @@
+.box {
+    width: 200px;
+    height: 200px;
+    background: blue;
+    border: 1px solid black;
+    /* border: 1px dashed black; */
+    /* border-top: 20px solid red; */
+    /* border-width: 20px; */
+    /* border-width: 10px 20px; */
+    /* border-radius: 10px; */
+    /* border-radius: 100%; */
+  }
+  

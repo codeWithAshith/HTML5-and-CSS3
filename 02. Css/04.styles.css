@@ -1,0 +1,14 @@
+/* combining selectors */
+/* all p inside #products will have orange text color */
+#products p {
+  color: orange;
+}
+
+/* only direct child p inside #products will have red text color */
+/* #products > p { */
+/* p immedidately after #products */
+/* #products + p { */
+/* all p after #products */
+#products ~ p {
+  color: red;
+}

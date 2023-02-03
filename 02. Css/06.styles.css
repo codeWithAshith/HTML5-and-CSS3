@@ -1,0 +1,27 @@
+.first-letter {
+  font-size: 140%;
+  font-weight: bold;
+}
+
+/* pseduo - to style part of an elament */
+p::first-letter {
+  font-size: 140%;
+  font-weight: bold;
+}
+
+p::first-line {
+  font-size: 140%;
+  font-weight: bold;
+}
+
+p::selection {
+  background-color: blue;
+}
+
+p::before {
+  content: "...";
+}
+
+p::after {
+  content: "...";
+}

@@ -1,0 +1,7 @@
+- Install VS Code
+- Install VS Code extensions
+    - Prettier
+    - Live Server
+- VS Code
+    - File -> Autosave
+    - File -> Preference -> Settings -> Search "format on Save" -> enable "Format On Save" 
