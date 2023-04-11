@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Document</title>
+    <link rel="stylesheet" href="05.styles.css" />
+    <!-- Milligram CSS -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/milligram/1.4.1/milligram.css"
+    />
+  </head>
+  <body>
+    <form action="">
+      <!--
+        - mobile phone, soft keyboard changes to nubmbers
+        - only numbers can be 
+    -->
+      <input type="number" />
+      <!-- password: input text is masked, dot's only appear -->
+      <input type="password" />
+      <!-- date. calendar icon in browser, by default-->
+      <input type="date" />
+      <!--validation error if email address not submitted-->
+      <input type="email" />
+      <!--cols: num of character in a line, rows: number of lines-->
+      <!--can type muliple lines-->
+      <textarea name="" id="" cols="30" rows="10"></textarea>
+
+      <!--
+        input field attribute types:
+     
+        max-length, num of character user can type in input field
+        input field attribute, value, used to pre populate input field
+        placeholder: lable, disappears 
+        read-only value cannot be change to input field
+        disabled: input field cannot be selected, value not sent to server
+    -->
+      <!-- 
+        
+        - The autofocus attribute is a boolean attribute.
+        - It specifies that an <input> element should automatically get focus when the page loads.
+        - set to True by default, don't need to explicity type True    
+        
+        -->
+      <input type="email" autofocus />
+    </form>
+  </body>
+</html>

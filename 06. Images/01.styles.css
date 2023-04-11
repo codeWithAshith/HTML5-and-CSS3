@@ -1,0 +1,8 @@
+body {
+  background: url(images/bg-paper.jpg);
+  background: url(images/bg-sanfrancisco.jpg);
+  background-repeat: no-repeat;
+  background-size: cover; /* cover keeps aspect ration */
+  background-attachment: fixed;
+  height: 100vh;
+}
