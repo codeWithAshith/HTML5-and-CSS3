@@ -1,0 +1,10 @@
+.avatar {
+  width: 5rem;
+  height: 5rem;
+  background-color: gold;
+  float: left;
+  margin-right: 0.5rem;
+}
+.clear {
+  clear: both; /* comment and uncomment */
+}

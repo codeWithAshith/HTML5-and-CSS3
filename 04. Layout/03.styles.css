@@ -1,0 +1,9 @@
+.box {
+  border: 3px solid gold;
+  width: 150px;
+  height: 150px;
+  overflow: auto; /* shows if require and is the combination of overlow-x, overflow-y */
+  overflow: hidden auto;
+  overflow-x: hidden;
+  overflow-y: auto; /* can also be scroll */
+}

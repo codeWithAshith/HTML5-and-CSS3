@@ -1,0 +1,29 @@
+p {
+  line-height: 2rem;
+  letter-spacing: 0.2rem;
+}
+
+/**
+** formatting text **
+- text-align
+- text-indent
+- text-decoration
+- text-transform
+- column-*
+- direction 
+**/
+
+h4 {
+  text-align: center;
+}
+h5 {
+  text-indent: 1rem;
+}
+h5 {
+  text-decoration: dotted;
+  direction: rtl;
+}
+.count {
+  text-transform: capitalize;
+  column-count: 2;
+}

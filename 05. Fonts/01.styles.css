@@ -1,0 +1,11 @@
+/**
+Serif - Georgia, Times New Roman
+Sans-Serif - Arial, Roboto
+Monospace - Consolas, ubuntu 
+**/
+
+p {
+  /* Font stack
+    Arial - web safe fonts , mostly avaiable  */
+  font-family: Arial, Helvetica, sans-serif;
+}

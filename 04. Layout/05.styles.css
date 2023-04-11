@@ -1,0 +1,65 @@
+body {
+  width: 100vw;
+  height: 200vh; /* to see fixed position */
+}
+
+.boxes {
+  border: 3px solid lightgray;
+}
+
+.box {
+  width: 100px;
+  height: 100px;
+}
+
+/* default position is static */
+
+.box-one {
+  background-color: gold;
+}
+
+.box-two {
+  background-color: tomato;
+  position: relative;
+  left: 5rem;
+  top: -5rem;
+  z-index: -1;
+}
+
+.box-three {
+  background-color: lightblue;
+}
+
+/* absolute should be inside a parent of relative */
+.boxesAbsolute {
+  border: 3px solid lightgray;
+  position: relative;
+}
+
+.box-aone {
+  background-color: gold;
+}
+
+.box-atwo {
+  background-color: tomato;
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+
+.box-athree {
+  background-color: lightblue;
+}
+
+/* fixed position */
+
+.boxesFixed {
+  border: 3px solid lightgray;
+}
+
+.box-aone {
+  background-color: gold;
+  position: fixed;
+  right: 0;
+  top: 0;
+}

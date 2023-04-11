@@ -1,0 +1,45 @@
+html {
+  /* 62.5 % of 16px = 10px */
+  font-size: 62.5%;
+}
+
+body {
+  margin: 0px;
+  width: 300px;
+}
+
+.boxPx {
+  width: 100px;
+  height: 100px;
+  background-color: gold;
+  border-top: 3px solid orange;
+}
+.boxPercentage {
+  width: 50%;
+  height: 100px;
+  background-color: gold;
+  border-top: 3px solid orange;
+}
+.boxViewPort {
+  width: 50%; /* 50vw */
+  height: 100vh;
+  background-color: gold;
+  border-top: 3px solid orange;
+}
+/* default font size will be 16px */
+/* 16 * 10 em = 160px */
+
+.boxEm {
+  width: 10em;
+  height: 100px;
+  background-color: gold;
+  border-top: 3px solid orange;
+}
+
+.boxRem {
+  /* 10 x font size of root element ie) html */
+  width: 10rem;
+  height: 100px;
+  background-color: gold;
+  border-top: 3px solid orange;
+}
